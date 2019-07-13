@@ -21,6 +21,8 @@ function Clima ({resultado}) {
 
                 <p>Temperatura máxima: {parseInt(main.temp_max - kelvin, 10) }&#x2103;</p>
                 <p>Temperatura minima: {parseInt(main.temp_min - kelvin, 10) }&#x2103;</p>
+                <p>Humedad: {parseInt(main.humidity) }%</p>
+                <p>Presión: {parseInt(main.pressure) }</p>
             </div>
         </div>
     )
